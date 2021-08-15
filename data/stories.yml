@@ -1,0 +1,513 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bv
+  - action: utter_bv
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 2
+  steps:
+  - intent: bv_cause
+  - action: utter_bv_cause
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 3
+  steps:
+  - intent: bv_transmission
+  - action: utter_bv_transmission
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 4
+  steps:
+  - intent: bv_symptoms
+  - action: utter_bv_symptoms
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 5
+  steps:
+  - intent: bv_safety
+  - action: utter_bv_safety
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bv path 6
+  steps:
+  - intent: bv_pregnancy
+  - action: utter_bv_pregnancy
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fibroids
+  - action: utter_fibroids
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 2
+  steps:
+  - intent: fibroids_cancer
+  - action: utter_fibroids_cancer
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 3
+  steps:
+  - intent: fibroids_cause
+  - action: utter_fibroids_cause
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 4
+  steps:
+  - intent: fibroids_treatment
+  - action: utter_fibroids_treatment
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 5
+  steps:
+  - intent: fibroids_hysterectomy
+  - action: utter_fibroids_hysterectomy
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 6
+  steps:
+  - intent: fibroids_uae
+  - action: utter_fibroids_uae
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: fibroids path 7
+  steps:
+  - intent: fibroids_fertility
+  - action: utter_fibroids_fertility
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: menopausal path 
+  steps:
+  - intent: menopausal_symptoms
+  - action: utter_menopausal_symptoms
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 1
+  steps:
+  - intent: menopausal_symptoms_1
+  - action: utter_menopausal_symptoms_1
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: menopausal path 3
+  steps:
+  - intent: menopausal_symptoms_3
+  - action: utter_menopausal_symptoms_3
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 4
+  steps:
+  - intent: menopausal_symptoms_4
+  - action: utter_menopausal_symptoms_4
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 5
+  steps:
+  - intent: menopausal_symptoms_5
+  - action: utter_menopausal_symptoms_5
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 6
+  steps:
+  - intent: menopausal_symptoms_6
+  - action: utter_menopausal_symptoms_6
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 7
+  steps:
+  - intent: menopausal_symptoms_7
+  - action: utter_menopausal_symptoms_7
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 8
+  steps:
+  - intent: menopausal_symptoms_8
+  - action: utter_menopausal_symptoms_8
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: menopausal path 9
+  steps:
+  - intent: menopausal_symptoms_9
+  - action: utter_menopausal_symptoms_9
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: period path 1
+  steps:
+  - intent: period_1
+  - action: utter_period_1
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: period path 2 
+  steps:
+  - intent: period_2
+  - action: utter_period_2
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: period path 3 
+  steps:
+  - intent: period_3
+  - action: utter_period_3
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: period path 4 
+  steps:
+  - intent: period_4
+  - action: utter_period_4
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: period path 5 
+  steps:
+  - intent: period_5
+  - action: utter_period_5
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: mental illness path 1
+  steps:
+  - intent: mental_illness_1
+  - action: utter_mental_illness_1
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: mental illness path 2
+  steps:
+  - intent: mental_illness_2
+  - action: utter_mental_illness_2
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 3
+  steps:
+  - intent: mental_illness_3
+  - action: utter_mental_illness_3
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 4
+  steps:
+  - intent: mental_illness_4
+  - action: utter_mental_illness_4
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 5
+  steps:
+  - intent: mental_illness_5
+  - action: utter_mental_illness_5
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 6
+  steps:
+  - intent: mental_illness_6
+  - action: utter_mental_illness_6
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 7
+  steps:
+  - intent: mental_illness_7 
+  - action: utter_mental_illness_7
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 8
+  steps:
+  - intent: mental_illness_8
+  - action: utter_mental_illness_8
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 9
+  steps:
+  - intent: mental_illness_9
+  - action: utter_mental_illness_9
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 10
+  steps:
+  - intent: mental_illness_10
+  - action: utter_mental_illness_10
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 11
+  steps:
+  - intent: mental_illness_11
+  - action: utter_mental_illness_11
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 12
+  steps:
+  - intent: mental_illness_12
+  - action: utter_mental_illness_12
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 13
+  steps:
+  - intent: mental_illness_13
+  - action: utter_mental_illness_13
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 14
+  steps:
+  - intent: mental_illness_14
+  - action: utter_mental_illness_14
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 15
+  steps:
+  - intent: mental_illness_15
+  - action: utter_mental_illness_15
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 16
+  steps:
+  - intent: mental_illness_16
+  - action: utter_mental_illness_16
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 17
+  steps:
+  - intent: mental_illness_17
+  - action: utter_mental_illness_17
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 18
+  steps:
+  - intent: mental_illness_18
+  - action: utter_mental_illness_18
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 19
+  steps:
+  - intent: mental_illness_19
+  - action: utter_mental_illness_19
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 20
+  steps:
+  - intent: mental_illness_20
+  - action: utter_mental_illness_20
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 21
+  steps:
+  - intent: mental_illness_21
+  - action: utter_mental_illness_21
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 22
+  steps:
+  - intent: mental_illness_22
+  - action: utter_mental_illness_22
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 23
+  steps:
+  - intent: mental_illness_23
+  - action: utter_mental_illness_23
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 24
+  steps:
+  - intent: mental_illness_24
+  - action: utter_mental_illness_24
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 25
+  steps:
+  - intent: mental_illness_25
+  - action: utter_mental_illness_25
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 26
+  steps:
+  - intent: mental_illness_26
+  - action: utter_mental_illness_26
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 27
+  steps:
+  - intent: mental_illness_27
+  - action: utter_mental_illness_27
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 28
+  steps:
+  - intent: mental_illness_28
+  - action: utter_mental_illness_28
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 29
+  steps:
+  - intent: mental_illness_29
+  - action: utter_mental_illness_29
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+  
+- story: mental illness path 30
+  steps:
+  - intent: mental_illness_30
+  - action: utter_mental_illness_30
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 31
+  steps:
+  - intent: mental_illness_31
+  - action: utter_mental_illness_31
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 32
+  steps:
+  - intent: mental_illness_32
+  - action: utter_mental_illness_32
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 33
+  steps:
+  - intent: mental_illness_33
+  - action: utter_mental_illness_33
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 34
+  steps:
+  - intent: mental_illness_34
+  - action: utter_mental_illness_34
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 35
+  steps:
+  - intent: mental_illness_35
+  - action: utter_mental_illness_35
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 36
+  steps:
+  - intent: mental_illness_36
+  - action: utter_mental_illness_36
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 37
+  steps:
+  - intent: mental_illness_37
+  - action: utter_mental_illness_37
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+- story: mental illness path 38
+  steps:
+  - intent: mental_illness_38
+  - action: utter_mental_illness_38
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

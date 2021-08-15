@@ -1,0 +1,337 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: bv
+  examples: |
+    - What is bv?
+    - What is bacterial Vaginosis?
+    - What is fullform of bv?
+    - Full-form of bv
+- intent: bv_cause
+  examples: |
+    - What causes BV?
+    - How BV is caused?
+    - What causes bacterial Vaginosis?
+    - how bacterial Vaginosis is caused?
+- intent: bv_transmission
+  examples: |
+    - Is BV a sexually transmitted disease?
+    - is bacterial Vaginosis a sexually transmitted disease?
+    - bv is caused due to sexual transmission?
+    - bacterial Vaginosis is caused due to sexual transmission?
+- intent: bv_symptoms
+  examples: |
+    - Why do the symptoms of bv keep coming back?
+    - Why do the symptoms of bacterial Vaginosis keep coming back?
+    - can symptoms of bv keep coming back ?
+    - can symptoms of bacterial Vaginosis keep coming back ?
+- intent: bv_safety
+  examples: |
+    - I am highly aware of hygiene and cleanliness so why to I have bacterial Vaginosis?
+    - I am highly aware of hygiene and cleanliness so why to I have BV?
+    - Inspite of being maintaining high cleanliness and hygiene why I got bv?
+    - Inspite of being maintaining high cleanliness and hygiene why I got bacterial Vaginosis?
+- intent: bv_pregnancy
+  examples: |
+    - Is it dangerous to have BV whilst pregnant?
+    - I have bv and i got pregnant is it safe?
+    - Is it dangerous to have bacterial Vaginosis whilst pregnant?
+    - I have bacterial Vaginosis and i got pregnant is it safe?
+- intent: fibroids
+  examples: |
+    - What are Fibroids?
+    - Fibroids
+- intent: fibroids_cancer
+  examples: |
+    - Are fibroids cancerous?
+- intent: fibroids_cause
+  examples: |
+    - What is the cause of fibroids?
+- intent: fibroids_treatment
+  examples: |
+    - Is it necessary to have fibroids treated?
+    - Can i live with fibroids?
+    - what are the chances in living with fibroids?
+- intent: fibroids_hysterectomy
+  examples: |
+    - Do I have to have a hysterectomy?
+- intent: fibroids_uae
+  examples: |
+    - What is Uterine Artery Embolisatiion (UAE)?
+- intent: fibroids_fertility
+  examples: |
+    - Will fibroids affect my fertility?
+- intent: menopausal_symptoms
+  examples: |
+    - How do I minimise menopausal symptoms?
+
+- intent: menopausal_symptoms_1
+  examples: |
+    - I am having my menopause and am now 51 years old. My main problem has been with the hot flushes. I am keen to try something different to HRT and believe that anti-depressants are used with success.
+
+- intent: menopausal_symptoms_2
+  examples: |
+    - I am 58 years old and have had few menopausal symptoms so decided not to take HRT. However, I do have problems with dryness and irritation of the vagina which also makes intercourse difficult and painful, which I understand is due to lack of oestrogen. What alternatives are there to manage this problem?
+
+- intent: menopausal_symptoms_3
+  examples: |
+    - I have been experiencing headaches and sickness which seem to coincide with my periods. My doctor thinks I have migraine, but the anti-migraine tablets that I have been given make me feel ill. Is it possible that these headaches are connected to my hormones, and is there anything else I can do about them?
+
+- intent: menopausal_symptoms_4
+  examples: |
+    - My periods stopped finally about 6 months ago when I was 52years old and I have had no bleeding since. However, I am now presenting with some symptoms and wish to start Hormone Replacement Therapy. I have read about the benefits and the risks involved with HRT and before I discuss this with my doctor. I would like more information on the different types of HRT and which sort would be suitable for me.
+
+- intent: menopausal_symptoms_5
+  examples: |
+    - I have been having some symptoms of the menopause over the past year and the most distressing is severe sleeplessness. My GP prescribed HRT a month ago but I am feeling no benefit How long should this take and should I take sleeping tablets in the meantime?
+
+- intent: menopausal_symptoms_6
+  examples: |
+    - I am now 56 years old and nine years ago started on HRT – Premarin 0.625 mg – after surgery for a total hysterectomy and removal of both ovaries. My mother had osteoporosis and, following a fall which meant she was hospitalised, developed complications and died 18 months ago. I was distressed at the amount of pain my mother experienced and how disabling her osteoporosis was and would like to ensure that I take appropriate precautions to prevent this. Is HRT sufficient to protect my bones? Recent media statements have confused me. As I have been on HRT for 9 years should I stop and, if I do, how can I then prevent the onset of osteoporosis ?
+
+- intent: menopausal_symptoms_7
+  examples: |
+    - I am 50 years old and had a hysterectomy and removal of ovaries 10 years ago. At the time I was given HRT oestrogen only and since feel really well. I was told then that I could continue on into my 60’s with HRT but now my GP wants me to stop. I am in good health,. Had a clear mammogram and my blood pressure is fine, so I need to be able to convince him that I wish to continue.
+
+- intent: menopausal_symptoms_8
+  examples: |
+    - I have had no periods since I was 54 (two years ago) and have had few menopausal symptoms but I do find that I am more moody and depressed and that my sexual drive has all but gone. This is putting a strain on my marriage, which had previously been a very fulfilling relationship.
+
+- intent: menopausal_symptoms_9
+  examples: |
+    - Im a 42 year old woman and I haven’t had a period for over six months. I assume I am going through the menopause – especially as I was told four years ago I was not fertile enough to have another baby. I’ve had a bone scan and have a slight bone deficiency in my spine for which I take calcium tablets.I’m worried about any other health problems which could arise from having an early menopause. I’ve asked my doctor but she was quite dismissive. I’m experiencing hot flushes and am finding my memory is becoming terrible which is having a detrimental effect on my self esteem. I was wondering if you had any ideas for boosting my system via supplements which could help.
+- intent: period_1
+  examples: |
+    - "Why are my periods irregular and is this normal?"
+
+- intent: period_2
+  examples: |
+    - "My periods are very heavy with clots. Is this anything to worry about?"
+
+- intent: period_3
+  examples: |
+    - I am 15 why is my first period so late in coming?
+
+- intent: period_4
+  examples: |
+    - Can I get pregnant if I have sex during a period?
+
+
+- intent: period_5
+  examples: |
+    - I am 48 and have not had a period for six months. Am I safe to have unprotected sex?
+
+
+- intent: mental_illness_1
+  examples: |
+    - What does it mean to have a mental illness?
+
+
+- intent: mental_illness_2
+  examples: |
+    - Who does mental illness affect?
+
+- intent: mental_illness_3
+  examples: |
+    - What causes mental illness?
+
+- intent: mental_illness_4
+  examples: |
+    - What are some of the warning signs of mental illness?
+
+
+- intent: mental_illness_5
+  examples: |
+    - Can people with mental illness recover?
+
+
+- intent: mental_illness_6
+  examples: |
+    - What should I do if I know someone who appears to have the symptoms of a mental disorder?
+
+
+- intent: mental_illness_7
+  examples: |
+    - How can I find a mental health professional for myself or my child?
+
+
+- intent: mental_illness_8
+  examples: |
+    - What treatment options are available?
+
+- intent: mental_illness_9
+  examples: |
+    - If I become involved in treatment, what do I need to know?
+- intent: mental_illness_10
+  examples: |
+    - What is the difference between mental health professionals?
+- intent: mental_illness_11
+  examples: |
+    - How can I find a mental health professional right for my child or myself?
+- intent: mental_illness_12
+  examples: |
+    - If I become involved in treatment what do I need to know?
+- intent: mental_illness_13
+  examples: |
+    - Where else can I get help?
+- intent: mental_illness_14
+  examples: |
+    - What should I know before starting a new medication?
+- intent: mental_illness_15
+  examples: |
+    - If I feel better after taking medication, does this mean I am "cured" and can stop taking it?
+- intent: mental_illness_16
+  examples: |
+    - How can I get help paying for my medication?
+- intent: mental_illness_17
+  examples: |
+    - Where can I go to find therapy
+- intent: mental_illness_18
+  examples: |
+    - Where can I learn about types of mental health treatment?
+- intent: mental_illness_19
+  examples: |
+    - What are the different types of mental health professionals?
+- intent: mental_illness_20
+  examples: |
+    - Where can I go to find a support group?
+- intent: mental_illness_21
+  examples: |
+    - Where can I go to find inpatient care?
+- intent: mental_illness_22
+  examples: |
+    - Where can I go to find other local services?
+- intent: mental_illness_23
+  examples: |
+    - Where can I learn more information about clinical trials?
+- intent: mental_illness_24
+  examples: |
+    - Where can I learn more information about creating a Psychiatric Advance Directive?
+- intent: mental_illness_25
+  examples: |
+    - What is mental health?
+- intent: mental_illness_26
+  examples: |
+    - What do I do if the support doesnt help?
+- intent: mental_illness_27
+  examples: |
+    - Can you prevent mental health problems?
+- intent: mental_illness_28
+  examples: |
+    - Are there cures for mental health problems?
+- intent: mental_illness_29
+  examples: |
+    - What causes mental health problems?
+- intent: mental_illness_30
+  examples: |
+    - What do I do if Im worried about my mental health?
+- intent: mental_illness_31
+  examples: |
+    - How do I know if I m unwell?
+- intent: mental_illness_32
+  examples: |
+    - What should I do if I m worried about a friend or relative?
+- intent: mental_illness_33
+  examples: |
+    - How do I deal with someone telling me what to do?
+- intent: mental_illness_34
+  examples: |
+    - Why do I need to keep informed?
+- intent: mental_illness_35
+  examples: |
+    - How can I tell if health information is good or bad?
+- intent: mental_illness_36
+  examples: |
+    - Why do I need a plan?
+- intent: mental_illness_37
+  examples: |
+    - How can I maintain social connections? What if I feel lonely?
+- intent: mental_illness_38
+  examples: |
+    - How can I take care of my physical health?
+
+
+
+

@@ -1,0 +1,448 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - bv
+  - bv_cause
+  - bv_transmission
+  - bv_symptoms
+  - bv_safety
+  - bv_pregnancy
+  - fibroids
+  - fibroids_cancer
+  - fibroids_cause
+  - fibroids_treatment
+  - fibroids_hysterectomy
+  - fibroids_uae
+  - fibroids_fertility
+  - menopausal_symptoms
+  - menopausal_symptoms 1
+  - menopausal_symptoms 2
+  - menopausal_symptoms 3
+  - menopausal_symptoms 4
+  - menopausal_symptoms 5
+  - menopausal_symptoms 6
+  - menopausal_symptoms 7
+  - menopausal_symptoms 8
+  - menopausal_symptoms 9
+  - period_1
+  - period_2
+  - period_3
+  - period_4
+  - period_5
+  - mental_illness_1
+  - mental_illness_2
+  - mental_illness_3
+  - mental_illness_4
+  - mental_illness_5
+  - mental_illness_6
+  - mental_illness_7
+  - mental_illness_8
+  - mental_illness_9
+  - mental_illness_10
+  - mental_illness_11
+  - mental_illness_12
+  - mental_illness_13
+  - mental_illness_14
+  - mental_illness_15
+  - mental_illness_16
+  - mental_illness_17
+  - mental_illness_18
+  - mental_illness_19
+  - mental_illness_20
+  - mental_illness_21
+  - mental_illness_22
+  - mental_illness_23
+  - mental_illness_24
+  - mental_illness_25
+  - mental_illness_26
+  - mental_illness_27
+  - mental_illness_28
+  - mental_illness_29
+  - mental_illness_30
+  - mental_illness_31
+  - mental_illness_32
+  - mental_illness_33
+  - mental_illness_34
+  - mental_illness_35
+  - mental_illness_36
+  - mental_illness_37
+  - mental_illness_38
+  - mental_illness_39
+  - mental_illness_40
+  - mental_illness_41
+  - mental_illness_42
+
+  
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_bv:
+  - text: "Bacterial vaginosis is a type of vaginal inflammation caused by the overgrowth of bacteria naturally found in the vagina, which upsets the natural balance. Women in their reproductive years are most likely to get bacterial vaginosis, but it can affect women of any age."
+  
+  utter_bv_cause:
+  - text: "The exact cause of the Bacterial Vaginosis (BV) is not known. However, it is certain that it is not caused by a single germ. It is caused by the overgrowth of various bacteria produced in the vagina. Usually, a number of harmless germs reside in balance inside the vagina to protect it. BV seems to occur when this balance is disturbed."
+  
+  utter_bv_transmission:
+  - text: "BV is not a sexually transmitted disease. The partners of women who have BV do not need to seek treatment. However, BV may occur if you change a partner, or have multiple sex partners. Also, you are likely to be at greater risk if you do not use a condom when having sexual intercourse. The key point to remember is that you may have BV because you have disturbed the balance of bacteria in your vagina. In this respect, any woman can be affected, including those who are not sexually active."
+
+  utter_bv_symptoms:
+  - text: "It is common that BV will occur without any particular reasons, and at least 1 in 10 women experience BV at some point in their life. It is nearly impossible to prevent it from re-occurring. The best thing to remember for prevention is to try not to disturb the normal balance of bacteria in the vagina."
+
+  utter_bv_safety:
+  - text: " The cause of BV is not poor hygiene. Excessive vaginal cleansing can be a contributing factor for the cause of BV, by disturbing the balance of the bacteria in the vagina. Also, avoid using bath oils, detergents and bubble bath. If you smoke, this can be an additional contributing factor. In addition, poor health and hot weather can also be contributing factors. If you have experienced menopause or suffer from diabetes, the risk of having BV is greater than normal."
+
+  utter_bv_pregnancy:
+  - text: "If you have BV whilst you are pregnant, it is necessary to get advice from the doctor for the best treatment, since it can increase your risk of developing some complications during pregnancy, such as miscarriage, premature birth, and infections in the uterus after delivery."
+
+  utter_fibroids:
+  - text: "Fibroids grow in your womb. They are usually a non-cancerous tumor. They are sometimes called uterine myomas, fibromyomas or leiomyomas. One in every three women gets them, and about half of them are not aware that they have fibroids."
+
+  utter_fibroids_cancer:
+  - text: "It is very rare for fibroids to become cancerous. However, it is best to consult your doctor about whether to remove the fibroids surgically, especially if you have gone through the menopause."
+
+  utter_fibroids_cause:
+  - text: "Around one in three women have fibroids, but fewer than half of these women ever get any symptoms. It’s not clear what causes fibroids It is known that oestrogen causes the growth of fibroids. However, it is difficult to consider it as a determining factor for the cause of fibroids."
+
+  utter_fibroids_treatment:
+  - text: "If the symptoms are mild, or you do not have any symptoms, it is unnecessary to treat fibroids. However, if you develop symptoms or they cause pain, it is wise to get some advice from your doctor. S/he may suggest having an ultrasound scan to detect fibroids."
+
+  utter_fibroids_hysterectomy:
+  - text: "Currently, there is no single drug which will remove fibroids. However, there are hormone-based treatments which can be used to ease the symptoms. There are alternative medical treatments such as anti-inflammatory medicines or certain contraceptive pills, which can reduce the fibroids."
+
+  utter_fibroids_uae:
+  - text: "This is a non-surgical treatment to reduce the size of fibroids by blocking the blood supply to them. The treatment is performed under local anesthetic."
+
+
+  utter_fibroids_fertility:
+  - text: "The majority of women with fibroids do not have problems with their pregnancy and delivery. The records show for two thirds of women, fibroids stay at their current size or reduce in size during pregnancy. It is rare to have problems such as miscarriage, premature labour or bleeding. However, it is best to seek advice from your specialist if you are pregnant and have fibroids."
+  utter_menopausal_symptoms:
+  - text: "The best chance of avoiding or minimising menopausal symptoms when wanting to come off long-term HRT is to gradually reduce the dose. Change the dose at 3 to 4 weekly intervals, working down to the lowest available dose of tablet or patch. After getting onto the lowest dose, halve the tablets or patches and then stop after another 3 to 4 weeks. This works for most women, but a few will get a return of bad symptoms and may always have difficulty in trying to come off HRT."
+
+  utter_menopausal_symptoms_1: 
+  - text: "A number of studies recently have shown that antidepressants can be effective in reducing hot flushes. The two drugs were venlafaxine and paroxetine and the flushes were reduced by over 50%. The drug clonidine (dixarit) which is used for treating high blood pressure can also be effective in reducing the severity of flushes in about one third of women."
+  utter_menopausal_symptoms_2:
+  - text: "As you may know the cause of this problem is part of the aging process where the vaginal lining becomes thinner in the absence of oestrogen. You can be prescribed oestrogen vaginal cream or pessaries which act locally and are not usually absorbed systemically. This helps with the urogenital symptoms that some women experience and provides the additional oestrogen to the vagina that will ease the dryness and irritation problem. You may also wish to use a vaginal bioadhesive moisturising product such as Replens which helps with lubrication and can be bought from a pharmacy."
+  utter_menopausal_symptoms_3:
+  - text: "What you describe is known as “menstrual migraine”. The exact cause is not known, but it appears the migraine attacks are triggered by the falling oestrogen level that occurs just before or around the time your period starts. The best way to correct this problem is to use a “top-up” dose of oestrogen to prevent the levels falling too quickly. This is most easily achieved by applying a 40 or 50 mcg transdermal oestradiol patch a day or two before your period is due. You can remove this after three and a half days, or apply another patch if you get migraine more than a day or two into your period. Patches can also be used to help premenstrual symptoms such as depression or irritability. Again, they can be applied just before or when the symptoms arise, usually during the 5 – 7 days before menstruation, and continued for a day or two into the period."
+  utter_menopausal_symptoms_4:
+  - text: "During the perimenopausal period, women are still producing some of their own hormones but the levels fluctuate, often causing some of the most distressing symptoms. This can be relieved by taking Hormone Therapy which overrides the natural hormones, balancing them and creating a more stable situation. Initially treatment usually starts with cyclical hormones which mimic the cycle of early menopause and which consist of 14 days oestrogen only, followed by oestrogen and progesterone together, then usually followed with a bleed.
+  A continuous combined medication is offered to women usually after a cyclical medication has been used and with the combined product, a bleed will not occur.The dose and effects will then be monitored regularly by your General Practitioner and , providing you are stable on the prescribed medication, this need not be changed. Should the menopausal symptoms not improve, an alternative may be suggested by your GP or Menopause Clinic Please note that this medication regime is one for women who have not had a hysterectomy."
+  utter_menopausal_symptoms_5:
+  - text: "Sleeplessness is not an uncommon problem and many women complain of this together with disturbed sleep from night sweats. HRT will be beneficial for this but will not help the symptoms immediately. Remember it has taken some time for the body to change producing natural hormones which result in the onset of the menopause and it will take time for the therapy to start to be effective. You should have relief from hot flushes and night sweats within three months and any genito urinary symptoms may then start to improve and there should be considerable benefits within 6 months. However, in some situations this can take longer. In the meantime it is useful to practice some good habits to establish better sleeping patterns with relaxation and stress management, and some people find natural remedies useful"
+  utter_menopausal_symptoms_6:
+  - text: "It has been well researched and documented that HRT has positive effect on bone and this protection is there for as long as you are taking the medication. After that the risk associated with osteoporosis would then be equal to the risk factors associated specifically with you – that is your age, being female, your family history and your surgical menopause. As you have been taking HRT for nine years your bones will have benefited from the exposure to its oestrogen whilst your own natural oestrogen levels have been declining. You should now discuss the route forward with your GP who will make a medical assessment to review whether the risk of developing osteoporosis is more of a factor in your particular case. This will influence whether you continue with HRT or change to one of the bone sparing products. Your GP may decide to send you for a scan to help you come to an informed decision. Lifestyle also plays a very important role in bone health so be sure to look at your diet’s calcium content as well as watching your weight, do not smoke and ensure you keep up a good weight-bearing exercise programme. If you are addressing all of these issues, then you are doing the best you possibly can for yourself."
+  utter_menopausal_symptoms_7:
+  - text: "This is a difficult situation to be in and one that is sadly not unusual. At 50 women can still be having monthly cycles and producing hormones, but because of your surgery your menopause has occurred 10 years earlier Since you have been taking HRT, your hormonal status has been maintained as it would have been for a woman of 50 had you not had surgery, so in your case it is possible to take HRT for another 5 to 10 years, providing all risk factors have been assessed. Please see our leaflet on ‘The HRT Controversy’ and you can then discuss this with your GP next time you go. Ask your doctor why he/she feels it is necessary for you to stop taking HRT. With the information from both your Doctor and from our leaflet, you should then be able to make a more informed mutual decision. Do also continue having regular mammography.
+"
+  utter_menopausal_symptoms_8:
+  - text: "This quite often happens and it is the partner who usually notices things before you do. You are right to consider that this may in part be menopausal symptoms but do consider all other aspects of your life too, as stress may be a major contributor. Some people feel that the ‘change of life’ is as difficult as adolescence both physically and emotionally and can be a very difficult experience with a lot of issues that have to be addressed as women change and move onto a different stage in their lives. Stress will also worsen any symptoms that women have, so it is recommended that you reassess your lifestyle and make some positive adjustments as necessary. You may find that you need also to consider taking HRT and Tibolone, which is a no-bleed preparation, which is often quite effective for the problems you describe.
+"
+  utter_menopausal_symptoms_9:
+  - text: "Hot flushes and difficulty with memory and concentration are well recognised menopausal symptoms. It does seem likely that you are experiencing a premature menopause, although it might be worth asking your GP to check your oestradiol and FSH levels to confirm this. (These blood tests are however not 100% reliable at your age.)There are no supplements that are proven to be of true benefit for menopausal symptoms but HRT would help anyone undergoing premature menopause. Premature menopause can result in premature osteoporosis and premature coronary heart disease, and we would recommend HRT be taken until at least you have reached the usual age of menopause, around 51 years old. Do discuss this with your own GP, who knows your medical history, and jointly decide on a course of action."
+
+  utter_period_1:
+  - text: "The average menstrual cycle or gap between the periods is 28 to 30 days, but different women have different cycles, and this is perfectly normal. Things that affect your lifestyle such as stress, illness, weight (gain or loss) and exercise can all affect the cycle, as can hormonal contraception.
+
+Irregular periods are also very common during puberty and when nearing or during the menopause. If you have bleeding with or after sex, irregular bleeding between periods, which is different to what is normal for you, if there are fewer than three weeks between the periods themselves, or there is bleeding after the menopause, then your GP should be seen for further advice."
+
+  utter_period_2:
+  - text: "Most women’s periods last between two and seven days. Generally this includes one or two days of heavy flow.
+
+However we are all different and therefore this will not be the same for everyone. Also, the amount of bleeding can vary from month to month, and this is totally normal. The bleeding will often have clots.
+
+If your period is so heavy that you have to change your pad or tampon more than once an hour, if the blood is coming out in a steady stream and won’t stop, or if your bleeding is lasting longer than seven days, then you do need to see your GP."
+
+  utter_period_3:
+  - text: "Most girls will get their first period between the ages of 11 and 14, but there will be girls who get it earlier or later, there is no right age. Sometimes the age your mother had her first period will be an indication, but not always.
+
+The main thing is not to worry too much about it, as anxiety and stress is likely to affect the cycle."
+
+  utter_period_4:
+  - text: "It is possible to get pregnant at any time during the menstrual cycle, including during the period, therefore always practice safe sex and use contraception and a condom when having sex.
+"
+  utter_period_5:
+  - text: "It is generally advised that under the age of 50, it is safe to have unprotected sex two years after your last period. If you are over 50, it should be safe to have unprotected sex one year after your last period.
+"
+  utter_mental_illness_1:
+  - text: "Mental illnesses are health conditions that disrupt a persons thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life.
+Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital.
+It is important to know that mental illnesses are medical conditions that have nothing to do with a persons character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brains biology.
+Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
+
+  utter_mental_illness_2:
+  - text: "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background.
+Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children.
+Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition.
+Parents and caretakers should be aware of this fact, and take notice of changes in their child��������s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+
+  utter_mental_illness_3:
+  - text: "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child���s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+  utter_mental_illness_4:
+  - text: "Symptoms of mental health disorders vary depending on the type and severity of the condition. 
+  The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once.In adults:
+  Confused thinking
+  Long-lasting sadness or irritability
+  Extreme highs and lows in mood
+  Excessive fear, worrying, or anxiety
+  Social withdrawal
+  Dramatic changes in eating or sleeping habits
+  Strong feelings of anger
+  Delusions or hallucinations (seeing or hearing things that are not really there)
+  Increasing inability to cope with daily problems and activities
+  Thoughts of suicide
+  Denial of obvious problems
+  Many unexplained physical problems
+  Abuse of drugs and/or alcohol
+    In older children and pre-teens:
+  Abuse of drugs and/or alcohol
+  Inability to cope with daily problems and activities
+  Changes in sleeping and/or eating habits
+  Excessive complaints of physical problems
+  Defying authority, skipping school, stealing, or damaging property
+  Intense fear of gaining weight
+  Long-lasting negative mood, often along with poor appetite and thoughts of death
+  Frequent outbursts of anger
+    In younger children:
+  Changes in school performance
+  Poor grades despite strong efforts
+  Excessive worrying or anxiety
+  Hyperactivity
+  Persistent nightmares
+  Persistent disobedience and/or aggressive behavior
+  Frequent temper tantrums"
+
+  utter_mental_illness_5:
+  - text: "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process.
+Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+
+  utter_mental_illness_6:
+  - text: "Although this website cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery.
+If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+
+  utter_mental_illness_7:
+  - text: "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area.
+"
+  utter_mental_illness_8:
+  - text: "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child.
+"
+
+  utter_mental_illness_9:
+  - text: "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:
+What is known about the cause of this particular illness?
+Are there other diagnoses where these symptoms are common?
+Do you normally include a physical or neurological examination?
+Are there any additional tests or exams that you would recommend at this point?
+Would you advise an independent opinion from another psychiatrist at this point?
+What program of treatment is the most helpful with this diagnosis?
+Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?
+What do you see as the family's role in this program of treatment?
+How much access will the family have to the individuals who are providing the treatment?
+What medications are generally used with this diagnosis?
+How much experience do you have in treating individuals with this illness?
+What can I do to help you in the treatment?"
+
+  utter_mental_illness_10:
+  - text: "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research.
+"
+  utter_mental_illness_11:
+  - text: "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research.
+"
+  utter_mental_illness_12:
+  - text: "Beginning treatment is a big step for individuals and families and can be very overwhelming. It is important to continue involvement in the treatment process as much as possible. Some questions you will need to have answered include:
+What is known about the cause of this particular illness?
+Are there other diagnoses where these symptoms are common?
+Do you normally include a physical or neurological examination?
+Are there any additional tests or exams that you would recommend at this point?
+Would you advise an independent opinion from another psychiatrist at this point?
+What program of treatment is the most helpful with this diagnosis?
+Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?
+What do you see as the family's role in this program of treatment?
+How much access will the family have to the individuals who are providing the treatment?
+What medications are generally used with this diagnosis? What is the biological effect of this medication, and what do you expect it to accomplish? What are the risks associated with the medication? How soon will we be able to tell if the medication is effective, and how will we know?
+How much experience do you have in treating individuals with this illness?
+What can I do to help you in the treatment?"
+
+  utter_mental_illness_13:
+  - text: "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area.
+Secondly, there are people and places throughout Nebraska that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+
+  utter_:
+  - text: "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    1. What is the medication supposed to do? 2. When should it begin to take effect, and how will I know when it is effective? 3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? 4. What are the side effects and what should be done if they occur? 5. What do I do if a dose is missed? 6. Is there any written information available about this medication? 7. Are there other medications that might be appropriate? 8. If so, why do you prefer the one you have chosen? 9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? 10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."
+  utter_mental_illness_14:
+  - text: "It is not uncommon for people to stop taking their medication when they feel their symptoms are under control. Others may choose to stop taking their medication because of its side effects, without realizing that most side effects can be effectively managed. While it may seem reasonable to stop taking the medication, the problem is that most often, the symptoms will return. If you or your child is taking medication, it is very important that you work together with your doctor before making decisions about any changes in your treatment.\nAnother problem with stopping medication, particularly for stopping it abruptly, is that you may develop withdrawal symptoms that can be very unpleasant. If you and your doctor feel a trial off your medicine is a good idea, it is necessary to slowly decrease the dosage of medications so that these symptoms don���t occur.\nIt is important that your doctor and pharmacist work together to make sure your medications are working safely and effectively. You should talk with them about how you are doing and if there are side effects that make you unwilling to continue treatment. They will work with you to develop strategies for minimizing these side effects, or will create a plan for switching to a different treatment that will be a better fit."
+
+  utter_mental_illness_15:
+  - text: "Some pharmaceutical companies offer prescription assistance programs to individuals and families with financial needs, while others offer special drug discount cards. These programs typically require a doctors consent and proof of your financial status. They may also require that you have either no health insurance or no prescription drug benefit through your health insurance.\nIn addition, there are prescription programs you might qualify for. Visit Healthfinder.gov to learn more.
+"
+  utter_mental_illness_16:
+  - text: "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in children's mental health). However, there are several different types of treatment and therapy that can help.
+"
+  utter_mental_illness_17:
+  - text: "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team.
+"
+  utter_mental_illness_18:
+  - text: "There are many types of mental health professionals. Finding the right one for you may require some research.
+"
+  utter_mental_illness_19:
+  - text: "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional.
+"
+  utter_mental_illness_20:
+  - text: "If you or someone you know is in crisis, inpatient care can help. Inpatient care can help people stabilize on new medications, adjust to new symptoms, or get the help they need.
+"
+
+  utter_mental_illness_21:
+  - text: "There are likely plenty of resources that can be used to help you find mental health treatment in your community. These resources can help you find the right therapist, and enable you to better understand viable treatment options and the treatment process.
+"
+  utter_mental_illness_22:
+  - text: "Sometimes, consumers of mental health services may consider participating in a research study when they have not experienced improvement despite having tried a variety of medications and treatments. Research studies (also known as clinical trials) may involve the use of new medications or new treatment approaches whose safety and effectiveness is being tested. While we support innovation in the field, consumers should be cautioned that there are risks associated with clinical trials ��� make sure you���re aware of them before you enroll.
+"
+  utter_mental_illness_23:
+  - text: "Similar to a medical advance directive or a health care power of attorney, a psychiatric advance directive is a legal document completed in a time of wellness that provides instructions regarding treatment or services one wishes to have or not have during a mental health crisis, and may help influence his or her care.
+"
+  utter_mental_illness_24:
+  - text: "We all have mental health which is made up of our beliefs, thoughts, feelings and behaviours.
+"
+  utter_mental_illness_25:
+  - text: "It can be difficult to find the things that will help you, as different things help different people. It's important to be open to a range of approaches and to be committed to finding the right help and to continue to be hopeful, even when some things don't work out.
+"
+  utter_mental_illness_26:
+  - text: "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious.
+"
+  utter_mental_illness_27:
+  - text: "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help.
+"
+  utter_mental_illness_28:
+  - text: "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events.
+"
+  utter_mental_illness_29:
+  - text: "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help.
+"
+  utter_mental_illness_30:
+  - text: "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help.
+"
+  utter_mental_illness_31:
+  - text: "This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with.
+"
+  utter_mental_illness_32:
+  - text: "Some people may advise you on good evidence of what works with the best of intentions, but it's important to find out what works best for you.
+"
+  utter_mental_illness_33:
+  - text: "It may be tempting to try to block out the world altogether to avoid bad news, but it's important to keep yourself informed. We all have to step up during a pandemic because we all have a part to play in reducing the spread of the virus. It's important that you know what must be done and how you should do it. This is important for the health of your neighbours and your own mental health, and taking action can help counter difficult feelings like hopelessness and despair. 
+ One study from people in China found that people who had reliable up-to-date information about the coronavirus and COVID-19 illness and accurate instructions on how they should act (such as instructions around hand-washing and wearing a mask) felt more resilient and felt better able to handle the virus. People who received good, accurate information reported lower levels of stress, anxiety, and depression. This research is available for free at www.mdpi.com/1660-4601/17/5/1729. 
+ Of course, it's okay to set limits. Staying informed does not mean that you have to follow the news all day. Check in a few times a day, sticking to trusted sources and media outlets. While social media can be a great way to keep in touch with family and friends, social media can also amplify bad advice, vague or untrue stories, and other unhelpful information. Be sure to use good critical thinking skills."
+
+  utter_mental_illness_34:
+  - text: "Anyone can post anything online. It's up to the readers to think critically about information to decide if it seems helpful, truthful, or safe. Here are key points to keep in mind as you determine which information is worth considering and which information doesn't pass the test. 
+ It's so easy to spread information online, and we can't assume that the source we're reading or watching is the original source. Before you can evaluate anything, you need to know where the claims come from and determine if it's a reliable source. 
+ Reliable sources on the coronavirus and COVID-19 illness include the World Health Organization (WHO), Government of Canada ministries and agencies like Health Canada and the Public Health Agency of Canada, the Government of BC ministries and agencies like the BC Ministry of Health, and the BC Centre for Disease Control (BCCDC). Scientists and researchers at universities and other institutions and health sciences professionals are also important sources of information. 
+ Headlines and titles need to be simple and short, so they can sometimes be misleading on their own. They may also be purposefully shocking or controversial to entice you to click to read more. 
+ Websites that belong to governments, government-funded agencies, well-known health providers, universities, or groups of medical professionals are generally the most reliable. Be careful of sites that don't list the author or don't tell you much about themselves. Double-check the author and the credentials of any 'experts' quoted or cited to see if they are actually experts in the topic being discussed. 
+ Can you find other evidence from other sources to support the claims? Does the author list their sources? Are the sources legitimate, like research journals? 
+ Unhelpful sources want you to feel a certain way: scared, angry, distrustful, vulnerable. Phrases like Skyrocketing rates of infection are sensational and they're meant to make people feel afraid. On the other hand, factual statements like We have 50 new cases in BC give you important information without playing into your emotions. Helpful news or information sources want you feel informed and empowered. 
+ Who is paying for the site? What products or services are being advertised? What links or other sites do they promote? Are you learning something from a story or experience, or are you simply being directed to buy a product or service? 
+ Social media can be a great way to keep in touch with family and friends, especially as we practice physical distancing or self-isolation. Social media can also be an important way to learn from health experts and connect to support services and mutual aid groups in your community. 
+ Like any other source of information, it's important to use good critical thinking skills when you use social media. Studies find that searching for health information on social media generally has very mixed results. You'll see both very poor-quality sources next to good-quality sources, and it's up to you to decide which is which. In addition, social media posts tend to be short and rarely capture everything you need to consider. They are generally useful as a way to start learning or exploring different points of view rather than a place to gather all the information. 
+ Visit www.mediasmarts.ca to learn more about digital and media literacy 
+ Visit www.healthnewsreview.org to learn more about thinking critically around health claims (this resource is no longer updated daily, but all toolkits and lessons are still available) 
+ This page is adapted from the Evaluating Mental Health and Substance Use Information info sheet."
+
+  utter_mental_illness_35:
+  - text: "There are a lot of things you can't control. You can't control what happens next, how governments respond, or how your neighbours react to the pandemic. What you can do is make a plan and decide how you'll manage the things you do control, like your ability to stay safe, follow public health measures, stay connected with loved ones, and take care of your mental and physical health. 
+ Events like a pandemic change a lot over time, and that uncertainty can add to fear and stress. The truth is that we don't know what will happen next���but that doesn't mean we're all helpless. You can do a lot. You can: 
+ Map out a daily schedule, including times you can connect with loved ones online or by phone 
+ Plan out daily tasks and goals 
+ Give yourself a schedule to look up current information 
+ Make sure you have 14 days of healthy food and household supplies at home 
+ Keep medications on hand and talk to your doctor for advice if you're at increased risk 
+ Educate yourself on public health measures and figure out how you'll follow those instructions 
+ Figure out how you'll manage increased childcare demands, working for home, or other changes to your usual routine 
+ Determine if you'll need financial supports like the Canada Emergency Response Benefit or BC Temporary Rent Supplement if your job is affected by COVID-19. If you anticipate a need, you can find application instructions and gather any documents or other pieces of information ahead of time 
+ Figure out how you'll manage times when you feel overwhelmed or hopeless, like calming activities, the number for a local support or crisis line, a video chat with a loved one, or a way to connect with your mental health care provider 
+ Look for local support organizations, neighbourhood groups, or mutual aid groups if you need extra help or support or would like to help others in your community 
+ Some planning will be straightforward, but you may also encounter situations or times when it's harder to see a solution or good plan of action. This is a great time to practice problem-solving skills. Problem-solving is a method that helps you break down a complicated situation into manageable pieces, look for realistic and unbiased information, brainstorm possible solutions, and test the solutions that you think might work well. Problem-solving is a helpful skill no matter what else is going on in the world, and it's an empowering, methodical approach when you might otherwise feel overwhelmed or lost. 
+ Check out the following resources for more information about problem-solving: 
+ Wellness Module 4: Problem-Solving: www.heretohelp.bc.ca/wellness-module/wellness-module-4-problem-solving 
+ Problem-solving worksheet from Anxiety Canada: www.anxietycanada.com/sites/default/files/ProblemSolving.pdf 
+ Effective Problem-Solving in The Antidepressant Skills Workbook: psychhealthandsafety.org/asw"
+
+  utter_mental_illness_36:
+  - text: "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. 
+ While you may be physically separated from friends, family members, and other loved ones, it has never been more important to maintain those social connections. Social connections are an opportunity to seek and share support, talk through difficult feelings, share a laugh, keep up-to-date with loved ones, and help each other cope. This pandemic is a lot for one person to deal with on their own. While measures like physical distancing and self-isolation are necessary to slow the spread of the virus, the physical separation can amplify a lot of challenging emotions like loneliness and fear. 
+ Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. 
+ Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. 
+ The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. 
+ Everyone feels lonely at times���maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. 
+ Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. 
+ Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. 
+ Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone. To find community services in BC, call or text 211 or visit www.bc211.ca. 
+ If you need extra support, you can talk with a psychologist or counsellor for free: 
+ You can access a free phone call with a Registered Psychologist though the Covid-19 Psychological Support Service from the BC Psychological Association. Visit www.psychologists.bc.ca/covid-19-resources. 
+ You can access free, phone-based, short-term support with a counsellor from a new group called the BC COVID-19 Mental Health Network. Email bccovidtherapists@gmail.com to receive an appointment time. 
+ For youth people ages 12-24, you can talk with a counsellor for free through Foundry Virtual. Visit foundrybc.ca/get-support/virtual/. 
+ Call the BC Mental Health Support Line at 310-6789. It���s available 24/7. 
+ Chat online with a Crisis Center volunteer at www.crisiscentrechat.ca (daily between noon and 1:00am) 
+ For older adults: Call the Seniors Distress Line at 604-872-123 
+ For youth and young adults: Chat online with a volunteer at www.YouthinBC.com (daily between noon and 1:00am) 
+ For children and youth: Call the Kids Help Phone at 1-800-668-6868 or visit kidshelpphone.ca 
+ For tips on managing loneliness, check out the following resources: 
+ Coping with Loneliness from the Canadian Mental Health Association: cmha.bc.ca/documents/coping-with-loneliness/ 
+ Loneliness and Social Connection issue of Visions Journal at www.heretohelp.bc.ca/visions/loneliness-and-social-connection-vol14 
+ Wellness Module 3: Social Support at www.heretohelp.bc.ca/wellness-module/wellness-module-3-social-support"
+
+  utter_mental_illness_37:
+  - text: "Taking care of your physical health is also good for your mental health. It's more important than ever to keep yourself healthy. 
+ Try to eat as well as you can. It may be easier to reach for unhealthier comfort foods and snacks while you spend more time at home, but try to keep a balanced approach. When you stock up on groceries, don���t ignore fresh fruit and vegetables���we still have everything we need to prepare food. Now that we're advised to limit the amount of time we spend in public spaces like grocery stores, this is a great time to try out new fruits and vegetables that keep at home for longer periods of time. 
+ If it's safer for you to stay home or you are in self-isolation, reach out for help. Many grocery stores and meal prep services offer safe, no-contact delivery. You can also ask family or friends to bring you groceries, or look for local COVID-19 support groups on social media. It's safest if others leave food and other supplies outside of your door to avoid spreading the virus. 
+ Exercise is an important part of mental health and well-being, stress management, and health sleep. However, it's something that many people give up when they start to feel stressed or overwhelmed. 
+ If it's safe for you to do so, spend time outside. You should still avoid busy areas or groups and stay at least two metres away from others, but there is no reason to avoid walks, runs, or other safe outdoor activities. (Note that some municipalities, BC Parks, and Parks Canada have restricted some outdoor spaces to reduce crowds, so check the status of your local parks or trails and respect closures���they're just keeping everyone safe.) 
+ If you prefer to exercise indoors, you can also find many different exercises classes online. You can try yoga, follow a barre class, work on your cardio, pick up a new dumbbell routine, and keep up with Crossfit WODs from the comfort of your living room. Look for no-equipment exercise routines or classes if you don't already have equipment. 
+ Poor sleep can make even simple problems feel a lot worse than they really are. Poor sleep can affect your mood, your outlook, and your patience. Unfortunately, stress and anxiety can really take a toll on your sleep. If you're having a hard time sleeping, be proactive and practice healthy sleep habits. For more, check out Wellness Module 6: Getting a Good Night's Sleep at www.heretohelp.bc.ca/wellness-module/wellness-module-6-getting-a-good-nights-sleep. 
+ If you have other health problems like a chronic illness, check in with your doctor or health care team to see if you need to take any additional measures or precautions. Remember to plan ahead and do what you can to keep prescription or over-the-counter medications, medical supplies, supplements, or other health needs on hand."
+
+  utter_mental_illness_38:
+  - text: "Distraction is a very valid tool to help you cope when everything feels overwhelming or when you feel lonely or isolated. 
+ If you don't have a lot of energy or focus right now, try low-effort distractions like watching TV, browsing Youtube, listening to a podcast or audiobook, playing a game on your phone, reading an easy book or magazine, or working on a simple art project. 
+ If you have more energy and focus, give yourself a to-do list every day: you can clean and take care of projects around your home, work on hobbies, connect with family or friends, read a new book and catch up on your favourite TV shows. You can find interesting opportunities to take online courses from universities all over the world through MOOCs and other online learning platforms, you can learn a new language online or through apps, and you can learn new hobbies and activities. As more people have to practice social distancing or self-isolation, people are finding creative ways to bring the world into their homes: you can tour museums and art galleries, Skype with a scientist, watch animals at zoos and nature preserves, and more. 
+ When normal schedules are disrupted, it's easy to fall into unhelpful habits. Look for ways to keep yourself on track with healthier habits. You could set yourself goals every day or turn activities into a fun competition with friends or family���whoever takes the most language classes wins! 
+ Many communities are using social media platforms like Facebook to organize support and help for neighbours. If you are healthy and it's safe to do so, you can sign up to walk dogs, pick up groceries and household supplies, and help others who can't go out at the moment. This can be a great way to make new connections in your area, and helping others is good for your own mental health. Just be sure to follow good hygiene practices and physical distancing���your own health is important."
+
+  
+  
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
